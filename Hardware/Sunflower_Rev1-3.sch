@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -23166,7 +23166,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="R27" library="microbuilder" deviceset="RESISTOR" device="0603" value="4.7k"/>
 <part name="R28" library="microbuilder" deviceset="RESISTOR" device="0805" value="2.37/1%"/>
 <part name="GND29" library="microbuilder" deviceset="GND" device=""/>
-<part name="C31" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="2200pF"/>
+<part name="C31" library="microbuilder" deviceset="CAP_CERAMIC" device="0603" value="0.22uF"/>
 <part name="GND30" library="microbuilder" deviceset="GND" device=""/>
 <part name="H1" library="CowFish-Connectors" deviceset="MOUNTINGHOLE" device="3.2"/>
 <part name="H3" library="CowFish-Connectors" deviceset="MOUNTINGHOLE" device="3.2"/>
@@ -25602,7 +25602,7 @@ Plated Thick</text>
 <text x="214.63" y="20.32" size="2.54" layer="94" align="bottom-center">° C</text>
 <text x="214.63" y="12.7" size="2.54" layer="94" align="bottom-center">mA</text>
 <text x="176.53" y="12.7" size="2.54" layer="94" align="bottom-center">-</text>
-<text x="189.23" y="12.7" size="2.54" layer="94" align="bottom-center">150</text>
+<text x="189.23" y="12.7" size="2.54" layer="94" align="bottom-center">250</text>
 <text x="201.93" y="12.7" size="2.54" layer="94" align="bottom-center">-</text>
 <text x="320.04" y="24.13" size="2.54" layer="94" font="vector">P. Bartek</text>
 <text x="364.49" y="33.02" size="2.54" layer="94" font="vector">1.3</text>
